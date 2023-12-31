@@ -1,0 +1,36 @@
+.screen-wide-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.textbox {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.full-width {
+  width: 100vw !important;
+}/*# sourceMappingURL=flexboxes.css.map */

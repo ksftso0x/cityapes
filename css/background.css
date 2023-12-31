@@ -1,0 +1,7 @@
+.background {
+  width: 100% !important;
+  height: 100vh !important;
+  position: fixed !important;
+  background-color: var(--sky2) !important;
+  z-index: 0 !important;
+}/*# sourceMappingURL=background.css.map */

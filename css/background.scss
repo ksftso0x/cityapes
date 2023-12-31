@@ -1,0 +1,57 @@
+// .background {
+//     background-color: var(--dark);
+//     height: 100%;
+//     width: 100%;
+//     bottom: 0;
+//     overflow: visible;
+//     position: absolute;
+//     color: var(--sky);
+//     z-index: -1;
+//     .layer {
+//     overflow: visible;
+//         position: absolute;
+//         bottom: 0;
+//         left: 0;
+//         width: 150%;
+//         height: 150%;
+//         background-size: 100%;
+//     }
+//     .stars {
+//         width: 100%;
+//         height: 100%;
+//       }
+//     .buildings2 {
+
+//         background-color: transparent;
+//         z-index: -4;
+//         background-image: url(../assets/background/buildings.png);
+//     }
+//     .trees {
+//         background-color: transparent;
+//         background-image: url(../assets/background/road.png);
+//         z-index: -3;
+//     }
+//     .bottom {
+//         height: 25%;
+//         background: rgb(71,46,110);
+//         background: linear-gradient(90deg, rgba(71,46,110,1) 0%, rgba(54,41,87,1) 100%);
+//         z-index: -5;
+//     }
+// }
+
+// @media screen and (min-height: 1081px) {
+//     .background {
+//         .layer {
+//             background-size: cover;
+//         }
+//     }
+// }
+    
+
+.background {
+    width: 100% !important;
+    height: 100vh !important;
+    position: fixed !important;
+    background-color: var(--sky2) !important;
+    z-index: 0 !important;
+}
